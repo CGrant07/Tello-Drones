@@ -60,9 +60,19 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        sendmsg('up 100', 3)
-        #sendmsg('flip f',3)
-        sendmsg('forward 100', 2)
+       # Square - Pilot = Bryson LaMew - CoPilot = Carson Grant
+        sendmsg('up 100', 6)
+        for i in range(4):
+            sendmsg('forward 60', 10)
+            sendmsg('cw 90', 10)
+
+        # Triangle - Pilot = Carson Grant - CoPilot = Bryson LaMew
+
+
+
+        # Circle Pilot = Bryson LaMew -CoPilot = Carson Grant
+
+
 
         sendmsg('land')
 
