@@ -62,9 +62,13 @@ try:
 
        # Square - Pilot = Bryson LaMew - CoPilot = Carson Grant
         sendmsg('up 100', 6)
-        for i in range(4):
-            sendmsg('forward 60', 10)
-            sendmsg('cw 90', 10)
+        sendmsg('forward 60', 6)
+        sendmsg('cw 90', 6)
+        sendmsg('forward 60', 6)
+        sendmsg('cw 90', 6)
+        sendmsg('forward 60', 6)
+        sendmsg('cw 90', 6)
+        sendmsg('forward 60', 6)
 
         # Triangle - Pilot = Carson Grant - CoPilot = Bryson LaMew
 
