@@ -60,9 +60,9 @@ try:
         sendmsg('battery?', 6)
         sendmsg('takeoff')
 
-        sendmsg('forward 200',6)
-        sendmsg('curve 50 0 50 150 0 100 30', 6)
-
+        sendmsg('forward 200',6) #Worked on Bryson's Computer
+        
+        sendmsg('go 165 0 50 50',6) #Worked on Carson's Computer
 
         sendmsg('land')
 
