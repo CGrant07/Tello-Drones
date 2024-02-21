@@ -60,12 +60,12 @@ try:
         sendmsg('battery?')
         sendmsg('takeoff', 8)
 
-        sendmsg('forward 200')  # Worked on Bryson's Computer
+        sendmsg('forward 180',7)  # Worked on Bryson's Computer
 
-        sendmsg('go 230 0 50 50', 8)  # Worked on Carson's Computer
+        sendmsg('go 210 0 50 50', 8)  # Worked on Carson's Computer
 
-        sendmsg('curve 125 125 0 0 250 0 30')  # Worked on Bryson's Computer
-
+        sendmsg('curve 50 135 0 -40 270 20 50',7)  # Worked on Bryson's Computer
+        sendmsg('cw 180')
         sendmsg('land')
 
         print('\nGreat Flight!!!')
