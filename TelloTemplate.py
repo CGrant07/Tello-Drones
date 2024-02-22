@@ -60,16 +60,19 @@ try:
         sendmsg('battery?')
         sendmsg('takeoff', 8)
 
-        sendmsg('forward 180',7)  # Worked on Bryson's Computer
+        sendmsg('forward 170', 10)  # Worked on Bryson's Computer
 
-        sendmsg('go 210 0 50 50', 8)  # Worked on Carson's Computer
+        sendmsg('go 210 0 50 50', 10)  # Worked on Carson's Computer
 
-        sendmsg('curve 50 135 0 -40 270 20 50',7)  # Worked on Bryson's Computer
-        sendmsg('cw 180')
+        sendmsg('curve 50 135 0 -40 270 20 50', 12)  # Worked on Bryson's Computer
+
+        sendmsg('cw 180', 10)
+
+        sendmsg('go 160 0 -30 50')  # Worked on Carson's Computer
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
-
     else:
         print('\nMake sure you check WIFI, surroundings, co-pilot is ready, re-run program\n')
 except KeyboardInterrupt:
