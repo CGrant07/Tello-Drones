@@ -81,9 +81,10 @@ try:
         sendmsg('forward 60', 6)
         """
         # Circle - Pilot = Bryson Lamew
+        """
         sendmsg('up 100', 6)
         sendmsg('curve 50 -50 0 0 -100 0 30', 6)
-
+        """
 
 
         sendmsg('land')
